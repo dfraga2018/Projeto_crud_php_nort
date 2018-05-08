@@ -1,0 +1,15 @@
+body {
+    padding-top: 50px;
+}
+
+.principal {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.Notas {
+    background-color: lightblue;
+    height: 40px;
+    width: 200px;
+    overflow-y: scroll;
+}

@@ -1,5 +1,8 @@
-cabeçalho
-canexão
+<?php
+    include("cabecalho.php");
+    include("conecta.php");
+?>
+
 manipulção de produtos no banco de dados.
 
 ...$nome = $_POST['nome']
@@ -7,4 +10,6 @@ manipulção de produtos no banco de dados.
 executar a chamada a função alteraProduto()
 Mensagens de alterado com sucesso!
 
-rodape
+<?php
+    include("rodape.php");
+  ?>

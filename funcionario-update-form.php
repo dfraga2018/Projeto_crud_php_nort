@@ -1,11 +1,12 @@
 <?php include_once("cabecalho.php");
-    $conexao = mysqli_connect("localhost", "root", "", "loja"); 
-arquivo de manipulação dos produtos no banco de dados
+
+      $conexao = mysqli_connect("localhost", "root", "", "norte"); 
+      arquivo de manipulação dos produtos no banco de dados
 
 
-realizar a busca do produto: $_GET['id']
+    realizar a busca do produto: $_GET['id']
 
-Montar o formulário (os dados desse formulário deve ser enviado para o arquivo produto-update.php)
+    Montar o formulário (os dados desse formulário deve ser enviado para o arquivo produto-update.php)
     Nome: $produto['nome']
     Preço
     Descrição
@@ -16,5 +17,5 @@ Montar o formulário (os dados desse formulário deve ser enviado para o arquivo
             $produto['categoria_id'] == $categaria['id']
                 Configurar a tag option com checked
 
-
- include_once("rodape.php") ?>
+ include_once("rodape.php") 
+ ?>

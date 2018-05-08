@@ -1,23 +1,24 @@
 <?php
 
-    function listaProdutos($conexao) {
-        $produtos = array();
+    function listaFuncionarios($conexao) {
+        $funcionarios = array();
 
-        $resultado = mysqli_query($conexao, "select p.*, c.nome as cat_nome from produtos as p inner join categorias as c on c.id = p.categoria_id");
+        $query_select= ("select * from funcionarios");
+        $resultado = mysqli_query($conexao, $query_select);
 
-        while ($produto = mysqli_fetch_assoc($resultado)) {
-            array_push($produtos, $produto);
+        while ($funcionario = mysqli_fetch_assoc($resultado)) {
+            array_push($funcionarios, $funcionario);
         }
 
-        return $produtos;
+        return $funcionarios;
     }
 
-    function alteraProduto($conexao, $id, $nome, $preco, $descricao, $categoria_id) {
+    function alteraFuncionario($conexao, $id, $nome, $preco, $descricao, $categoria_id) {
         $query = "update produtos set nome = '{$nome}', preco = {$preco}, descricao='{$descricao}', categoria_id={$categoria_id} where id = {$id}";
         return mysqli_query($conexao, $query);
     }
 
-    function buscaProduto($conexao, $id) {
+    function buscaFuncionario($conexao, $id) {
         $query = "select p.*, 
                     c.nome as categoria_nome 
                     from produtos as p
@@ -28,7 +29,7 @@
         return mysqli_fetch_assoc($resultado);
     }
 
-    function removeProduto($conexao, $id) {
+    function removeFuncionario($conexao, $id) {
         $query = "delete from produtos where id = {$id}";
         return mysqli_query($conexao, $query);
     }
