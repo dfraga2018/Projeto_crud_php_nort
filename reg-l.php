@@ -26,7 +26,7 @@
 								<input type="hidden" name="IDRegiao"  value="<?=$reg['IDRegiao']?>"/>
 								<button class="btn btn-default">update</button>
 							</form>
-							<form class="" action = "#" method="post">
+							<form class="" action = "reg-dc.php" method="post">
 								<input type="hidden" name="IDRegiao" value="<?=$reg['IDRegiao']?>"/>
 								<button class="btn btn-danger">delete</button>
 							</form>

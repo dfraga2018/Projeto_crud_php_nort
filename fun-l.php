@@ -52,7 +52,7 @@ include_once("base.php");
 								<input type="hidden" name="IDFuncionario"  value="<?=$fun['IDFuncionario']?>"/>
 								<button class="btn btn-default">update</button>
 							</form>
-							<form class="" action = "#" method="post">
+							<form class="" action = "fun-dc.php" method="post">
 								<input type="hidden" name="IDFuncionario" value="<?=$fun['IDFuncionario']?>"/>
 								<button class="btn btn-danger">delete</button>
 							</form>

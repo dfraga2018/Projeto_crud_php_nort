@@ -25,11 +25,11 @@
 
                     <td>
                             <form class="" action = "#" method="post">
-								<input type="hidden" name="IDRegiao"  value="<?=$ter['IDTerritorio']?>"/>
+								<input type="hidden" name="IDTerritorio"  value="<?=$ter['IDTerritorio']?>"/>
 								<button class="btn btn-default">update</button>
 							</form>
-							<form class="" action = "#" method="post">
-								<input type="hidden" name="IDRegiao" value="<?=$ter['IDTerritorio']?>"/>
+							<form class="" action = "ter-dc.php" method="post">
+								<input type="hidden" name="IDTerritorio" value="<?=$ter["IDTerritorio"]?>"/>
 								<button class="btn btn-danger">delete</button>
 							</form>
                     </td>
