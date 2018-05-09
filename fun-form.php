@@ -23,7 +23,7 @@ $BaseDto = new BaseDto($conexao);
       </div>
       <div class="form-group mx-3 my-4 col-md-2">
         <label for="datanascimento">Nascimento</label>
-        <input name="nascimentofun" type="text" class="form-control" id="datanascimento" >
+        <input name="nascimentofun" type="date" class="form-control" id="datanascimento" >
       </div>
     </div>
     <div class="form-row">
@@ -38,7 +38,7 @@ $BaseDto = new BaseDto($conexao);
    
       <div class="form-group mx-3  my-4 col-md-2">
         <label for="dataadmissao">Data de Admissão</label>
-        <input name="admissaofun" type="text" class="form-control" id="dataadmissao" >
+        <input name="admissaofun" type="date" class="form-control" id="dataadmissao" >
       </div>
       <div class="form-group mx-3  my-4 col-md-2">
         <label for="telefone">Telefone</label>
