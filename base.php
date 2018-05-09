@@ -91,4 +91,22 @@
             $resultado = mysqli_query($this->database->getConexao(),$sql);
             return mysqli_fetch_assoc($resultado);
         }
+        //atualizar funcionario
+        public function funcionarioatualizar($idfun, $sobrenomefun, $nomefun, $titulofun, $titulocortesiafun, $nascimentofun, $admissaofun, $enderecofun, $cidadefun, $regiaofun, $cepfun, $paisfun, $telefonefun, $extensaofun, $notasfun){
+            $sql = "update funcionarios set Sobrenome='{$sobrenomefun}', Nome='{$nomefun}', Titulo='{$titulofun}', TituloCortesia='{$titulocortesiafun}', DataNac='{$nascimentofun}', DataAdmissao='{$admissaofun}', Endereco='{$enderecofun}', Cidade='{$cidadefun}', Regiao='{$regiaofun}', Cep='{$cepfun}', Pais='{$paisfun}', TelefoneResidencial='{$telefonefun}', Extensao='{$extensaofun}', Notas='{$notasfun}'  WHERE   IDFuncionario={$idfun} ";
+			  return mysqli_query($this->database->getConexao(), $sql);
+
+        }
+        //atualizar regiao
+        public function regiaoatualizar($idreg, $nomereg){
+            $sql = "update regiao set DescricaoRegiao='{$nomereg}' where IDRegiao = {$idreg}";
+            return mysqli_query($this->database->getConexao(), $sql);
+        }
+        //atualiar territorio
+        public function territorioatualizar($idter, $descter, $regter){	
+            $sql = "update territorios set DescricaoTerritorio = '{$descter}', IDRegiao='{$regter}' where IDTerritorio = {$idter}";
+            return mysqli_query($this->database->getConexao(), $sql);	
+        }
+
+
     }

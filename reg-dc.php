@@ -2,7 +2,7 @@
 	include_once("cima.php");
 	include_once("conexao.php");
 	include_once("base.php");
-	$conexao = new BancoDeDados('localhost', 'root', '', 'northwind');
+	$conexao = new BancoDeDados('localhost', 'root', 'unidavi', 'northwind');
 	$BaseDto = new BaseDto($conexao);
     $idreg = $_POST["IDRegiao"];
     $reg = $BaseDto->regiaobuscar($idreg);

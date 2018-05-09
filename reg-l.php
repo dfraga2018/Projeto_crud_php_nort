@@ -2,7 +2,7 @@
 	include_once("cima.php");
 	include_once("conexao.php");
 	include_once("base.php");
-    $conexao = new BancoDeDados ("localhost","root","","northwind");
+    $conexao = new BancoDeDados ("localhost","root","unidavi","northwind");
     $BaseDto = new BaseDto($conexao);
 ?>
 
@@ -22,7 +22,7 @@
 						<td><?=$reg["DescricaoRegiao"]?></td>
 						<td>
 
-							<form class="" action = "#" method="post">
+							<form class="" action = "reg-u-form.php" method="post">
 								<input type="hidden" name="IDRegiao"  value="<?=$reg['IDRegiao']?>"/>
 								<button class="btn btn-default">update</button>
 							</form>

@@ -20,8 +20,8 @@ $BaseDto = new BaseDto($conexao);
     $telefonefun = $_POST['telefonefun'];
     $extensaofun = $_POST['extensaofun'];
     $notasfun = $_POST['notasfun'];
-    $cadastrar = $BaseDto->funcionariocadastrar($idfun, $sobrenomefun, $nomefun, $titulofun, $titulocortesiafun, $nascimentofun, $admissaofun, $enderecofun, $cidadefun, $regiaofun, $cepfun, $paisfun, $telefonefun, $extensaofun, $notasfun);
-     if($cadastrar) {
+    $atualizar = $BaseDto->funcionarioatualizar($idfun, $sobrenomefun, $nomefun, $titulofun, $titulocortesiafun, $nascimentofun, $admissaofun, $enderecofun, $cidadefun, $regiaofun, $cepfun, $paisfun, $telefonefun, $extensaofun, $notasfun);
+     if($atualizar) {
        ?>
       <script>
            window.location.href = 'fun-l.php';

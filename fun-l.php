@@ -2,7 +2,7 @@
 include_once("cima.php");
 include_once("conexao.php");
 include_once("base.php");
-    $conexao = new BancoDeDados ("localhost","root","","northwind");
+    $conexao = new BancoDeDados ("localhost","root","unidavi","northwind");
     $BaseDto = new BaseDto($conexao);
 ?>
 
@@ -48,7 +48,7 @@ include_once("base.php");
 					<td><//?=$fun["Foto"]?></td>
 					<td><?=$fun["Reportase"]?></td>
                     <td>
-							<form class="" action = "#" method="post">
+							<form class="" action = "fun-u-form.php" method="post">
 								<input type="hidden" name="IDFuncionario"  value="<?=$fun['IDFuncionario']?>"/>
 								<button class="btn btn-default">update</button>
 							</form>

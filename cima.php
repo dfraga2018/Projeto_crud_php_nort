@@ -22,28 +22,28 @@
                      	<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Funcionario</a>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="fun-form.php">Cadastr</a>
+								<a class="dropdown-item" href="fun-form.php">Cadastrar</a>
 								<a class="dropdown-item" href="fun-l.php">Lista</a>
 							</div>
                        </li>
                        <li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Regiao</a>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="reg-form.php">Cadastra</a>
+								<a class="dropdown-item" href="reg-form.php">Cadastrar</a>
 								<a class="dropdown-item" href="reg-l.php">Lista</a>
 							</div>
                        </li>
                        <li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Territorio</a>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="ter-form.php">Cadastra</a>
+								<a class="dropdown-item" href="ter-form.php">Cadastrar</a>
 								<a class="dropdown-item" href="ter-l.php">Lista</a>
 							</div>
                        </li>
                        <li class="nav-item dropdown">
 							 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Fun-Ter</a>
 							 <div class="dropdown-menu">
-								<a class="dropdown-item" href="#">Cadastra</a>
+								<a class="dropdown-item" href="#">Cadastrar</a>
 								<a class="dropdown-item" href="funter-l.php">Lista</a>
 					    	 </div>
 					   </li>                         
