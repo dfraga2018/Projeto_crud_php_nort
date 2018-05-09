@@ -1,6 +1,3 @@
-<?php include_once("cabecalho.php"); ?>
-
-    <h1>Bem vindo!</h1>
-    <p>Testando tela inicial</p>
-
-<?php include_once("rodape.php"); ?>
+<?php include_once("cima.php"); ?>
+   <h1 class="text-center text-uppercase font-weight-bold">Bem-Vindo</h1>
+<?php include_once("baixo.php"); ?>
