@@ -1,27 +1,27 @@
 <?php
-include_once("cima.php");
-include_once("conexao.php");
-include_once("base.php");
-$conexao = new BancoDeDados("localhost","root","unidavi","northwind");
-$BaseDto = new BaseDto($conexao);
-?>
 
-  <h1 class="my-4 ">Novo Território</h1>
+    include_once("cima.php");
+    include_once("conexao.php");
+    include_once("base.php");
+    $conexao = new BancoDeDados("localhost","root","unidavi","northwind");
+    $BaseDto = new BaseDto($conexao);
+?>
+  <h1>Novo Território</h1>
   <form method="POST" action="ter-c.php">
     <div class="form-row">
-      <div class="form-group my-4 mx-3 col-md-2">
-        <label for="idterritorio">ID</label>
-        <input name="idter" type="text" class="form-control" id="idterritorio"  >
+      <div class="form-group  col-md-2">
+        <label >ID</label>
+        <input name="idter" type="text" class="form-control"   >
       </div>
-      <div class="form-group my-4 mx-3 col-md-2">
-        <label for="nome">Nome</label>
-        <input name="nometer" type="text" class="form-control" id="nome" >
+      <div class="form-group  col-md-2">
+        <label >Nome</label>
+        <input name="nometer" type="text" class="form-control"  >
       </div>
     </div>
       <div class="form-row">
-      <div class="form-group mx-3 my-4 col-md-2">
-        <label for="regiao">Regiao</label>
-        <select name="regiaoter" id="regiao" class="form-control">
+      <div class="form-group  col-md-2">
+        <label >Regiao</label>
+        <select name="regiaoter"  class="form-control">
           <?php
               $regs = $BaseDto->regiaolista();
             foreach ($regs as $reg) :
@@ -33,6 +33,6 @@ $BaseDto = new BaseDto($conexao);
         </select>
    	  </div>
      </div>
-        <button type="submit" class="my-4 mx-3 btn btn-default">Cadastrar</button>
+        <button type="submit" class="btn btn-default">Cadastrar</button>
   </form>
 

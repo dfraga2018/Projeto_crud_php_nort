@@ -1,7 +1,14 @@
-<?php include_once("cima.php"); ?>
-   <h1 class="text-center text-uppercase font-weight-bold">Bem-Vindo</h1>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet quam vel pellentesque semper. Fusce bibendum mauris vel lobortis hendrerit. Donec viverra ullamcorper faucibus. Maecenas ac mauris imperdiet, porttitor mauris et, dignissim dolor. Integer semper viverra nisl ut finibus. Vestibulum maximus sed diam id tempus. Cras consequat auctor nisl a pharetra. Fusce pharetra libero et mollis commodo. Vivamus tempor arcu nibh, pharetra lacinia urna laoreet id. Etiam pulvinar elit lorem, eu consequat mauris blandit quis. Aliquam erat volutpat. Duis ipsum velit, ullamcorper consequat est a, sollicitudin faucibus justo.<br>
+<?php 
+include_once("cima.php");
+?>
 
-Maecenas vitae turpis ut velit vestibulum vestibulum. Curabitur porttitor hendrerit facilisis. Donec interdum lacus ac neque viverra consequat. Suspendisse et commodo est, at tincidunt tellus. Curabitur placerat tellus eu augue lobortis, vitae faucibus mi mattis. Aliquam erat volutpat. Morbi sed ultrices urna. Suspendisse placerat lorem sed nibh hendrerit finibus. Maecenas ultrices mauris in tellus imperdiet, eget mattis diam tempor. Duis ullamcorper elit consectetur est sodales, non feugiat quam vestibulum.<br></p>
-<?php include_once("baixo.php"); ?>
+   <h1 class="text-center text-uppercase font-weight-bold">Bem-Vindo</h1>
+    <p>Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Quem num gosta di mim que vai caçá sua turmis! Si num tem leite então bota uma pinga aí cumpadi!<br>
+
+    Atirei o pau no gatis, per gatis num morreus. Paisis, filhis, espiritis santis. Delegadis gente finis, bibendum egestas augue arcu ut est. A ordem dos tratores não altera o pão duris.<br>
+
+        Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Detraxit consequat et quo num tendi nada. Diuretics paradis num copo é motivis de denguis.Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Detraxit consequat et quo num tendi nada. Diuretics paradis num copo é motivis de denguis.<br></p>
+
+<?php
+include_once("baixo.php");
+?>

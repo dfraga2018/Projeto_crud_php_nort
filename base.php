@@ -107,6 +107,4 @@
             $sql = "update territorios set DescricaoTerritorio = '{$descter}', IDRegiao='{$regter}' where IDTerritorio = {$idter}";
             return mysqli_query($this->database->getConexao(), $sql);	
         }
-
-
     }

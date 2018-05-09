@@ -1,12 +1,11 @@
 <?php 
+
 	include_once("cima.php");
 	include_once("conexao.php");
 	include_once("base.php");
     $conexao = new BancoDeDados ("localhost","root","unidavi","northwind");
     $BaseDto = new BaseDto($conexao);
 ?>
-
-
 		<table class="table table-striped table-bordered ">
 			<tr>
 				<td>ID Região</td>

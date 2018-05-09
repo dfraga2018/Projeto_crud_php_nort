@@ -1,12 +1,11 @@
 <?php
+
 	include_once("conexao.php");
 	include_once("base.php");
 	$conexao = new BancoDeDados ("localhost", "root", "unidavi", "northwind");
 	$BaseDto = new BaseDto($conexao);
-
 	$idreg = $_POST['idreg'];
 	$nomereg = $_POST['descricaoregiaoreg'];
-
 	$atualizar = $BaseDto->regiaoatualizar($idreg,$nomereg);
     if($atualizar) {
         ?>
@@ -17,7 +16,7 @@
         } else {
         ?>
         <script>
-            alert("Erro!");
+            alert("Vish!");
             window.location.href = 'reg-l.php';
         </script>
         <?php

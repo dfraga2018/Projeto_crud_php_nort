@@ -1,42 +1,33 @@
            
-            <!--Footer-->
-            <footer class="page-footer font-small blue-grey lighten-5 pt-0 my-5">
-
-                <div>
-                    <div class="container">
-                        <!--Grid row-->
-                        <div class="row py-4 d-flex align-items-center">
-                        </div>
-                        <!--Grid row-->
-                    </div>
+   
+<footer class="page-footer font-small blue-grey lighten-5 pt-0 my-5">
+        <div>
+            <div class="container">
+                <div
+                     class="row py-4 d-flex align-items-center">
                 </div>
-                <hr>
-                <!--Footer Links-->
-                <div class="container mt-5 mb-4 text-center text-md-left">
-                    <div class="row mt-3">
-                  
-                        <!--First column-->
-                        <div class="col-md-3 col-lg-4 col-xl-3 mb-4 dark-grey-text">
-                            <h6 class="text-uppercase font-weight-bold">
-                                <strong>Company name</strong>
-                            </h6>
-                            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                            <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
-                                amet, consectetur adipisicing elit.</p>
-                        </div>
-                        <!--/.First column-->
-
-                        <!--Second column-->
-                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 dark-grey-text">
-                            <h6 class="text-uppercase font-weight-bold">
-                                <strong>Products</strong>
-                            </h6>
+            </div>
+        </div>
+        <hr>
+         <div class="container mt-5 mb-4 text-center text-md-left">
+            <div class="row mt-3">
+                 <div class="col-md-3 col-lg-4 col-xl-3 mb-4 dark-grey-text">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>O melhor lorem ipsum do mundis.</strong>
+                    </h6>
+                     <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! Diuretics      paradis num copo é motivis de denguis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis,        aguis e fermentis. Aenean aliquam molestie leo, vitae iaculis nisl..</p>
+            </div>
+                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 dark-grey-text">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Produtos</strong>
+                    </h6>
                             <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                             <p>
-                                <a href="#!" class="dark-grey-text">MDBootstrap</a>
+                                <a href="#!" class="dark-grey-text">Bootstrap</a>
                             </p>
                             <p>
-                                <a href="#!" class="dark-grey-text">MDWordPress</a>
+                                <a href="#!" class="dark-grey-text">WordPress</a>
                             </p>
                             <p>
                                 <a href="#!" class="dark-grey-text">BrandFlow</a>
@@ -45,46 +36,30 @@
                                 <a href="#!" class="dark-grey-text">Bootstrap Angular</a>
                             </p>
                         </div>
-                        <!--/.Second column-->
-
-                        <!--Third column-->
                         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 dark-grey-text">
                             <h6 class="text-uppercase font-weight-bold">
-                                <strong>Useful links</strong>
+                                <strong>Links Relacionados</strong>
                             </h6>
                             <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                             <p>
-                                <a href="#!" class="dark-grey-text">Your Account</a>
+                                <a href="#!" class="dark-grey-text">Sua Conta</a>
                             </p>
                             <p>
-                                <a href="#!" class="dark-grey-text">Become an Affiliate</a>
+                                <a href="#!" class="dark-grey-text">Quer ser um afiliado?</a>
                             </p>
                             <p>
-                                <a href="#!" class="dark-grey-text">Shipping Rates</a>
+                                <a href="#!" class="dark-grey-text">Regras</a>
                             </p>
                             <p>
-                                <a href="#!" class="dark-grey-text">Help</a>
+                                <a href="#!" class="dark-grey-text">Ajuda</a>
                             </p>
                         </div>
-
-
                     </div>
                 </div>
-                <!--/.Footer Links-->
-
-                <!-- Copyright-->
                 <div class="footer-copyright py-3 text-center">
-                    © 2018 Copyright:
-                        
-                    </a>
+                    © 2018 Copyright: Unidavi
                 </div>
-                <!--/.Copyright -->
-
-            </footer>
-            <!--/.Footer-->
-        </div>
-    </body>
-</html>
+</footer>
 
 
 

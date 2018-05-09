@@ -1,10 +1,13 @@
 <?php
-include_once("conexao.php");
-include_once("base.php");
-$conexao = new BancoDeDados("localhost","root","unidavi","northwind");
-$BaseDto = new BaseDto($conexao);
+
+    include_once("conexao.php");
+    include_once("base.php");
+    $conexao = new BancoDeDados("localhost","root","unidavi","northwind");
+    $BaseDto = new BaseDto($conexao);
 ?>
+
 <?php
+
 	$idfun =$_POST['idfun'];
 	$sobrenomefun =$_POST['sobrenomefun'];
 	$nomefun =$_POST['nomefun'];
@@ -30,7 +33,7 @@ $BaseDto = new BaseDto($conexao);
        } else {
        ?>
        <script>
-           alert("Erro!");
+           alert("Vish!");
            window.location.href = 'fun-l.php';
        </script>
        <?php
